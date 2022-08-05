@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+  
+  .container{
+    width: 100%; 
+    min-height: 100vh;
+    background-color: #c5bebe;
+    padding: 2vh 5vh;
+    background: linear-gradient(to bottom, #0000002a, #2727273a),url('./assets/bg.png');
+    background-size: cover;
+  }
+    
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+      transform: scale(.8);
+  }
+  .line{
+      width: 2px;
+      height: 6vh;
+      margin-left: -10vh;
+      background-color: #fff;
+  }
+
+  .list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-between;
+    height: 4vh;
+    color: #fff;
+  }
+
+  
+  .list-item{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  
+  .button-small{
+    padding: 1vh 4vh;
+    background-color: rgb(159, 131, 235);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  
+  .hero{
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    top: 15vh;
+    display: flex;
+    align-items: center;
+    padding: 10vh 2vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+  }
+  
+  .hero-heading{
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .hero-heading + button{
+    padding: 2.5vh 9vh;
+    background-color: rgb(231, 91, 133);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .button-large{
+    position: relative;
+    padding: 2.5vh 9vh;
+    margin-top: 8vh;
+    border: none;
+    background-color: rgb(159, 131, 235);
+    border-radius: 5px;
+    color: #fff;
+  }
+  
